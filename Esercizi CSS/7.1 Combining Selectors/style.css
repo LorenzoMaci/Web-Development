@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+h1, h2{
+    color: blueviolet;
+}
+
+.box > p{ 
+/*Utilizzo P e non la classe perchè ci sono altri elementi all'interno dello stesso div con il nome della classe*/
+    color: firebrick
+}
+
+.box li{
+    color: blue;
+}
+
+li.done{
+    color: green;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
